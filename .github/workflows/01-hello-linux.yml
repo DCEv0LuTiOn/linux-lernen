@@ -23,3 +23,9 @@ jobs:
 
       - name: Welches System läuft hier?
         run: uname -a
+
+      - name: Welches Datum ist heute?
+        run: echo date +%Y-%m-%d
+
+      - name: Aktuelle Kernelversion
+        run: uname -r
